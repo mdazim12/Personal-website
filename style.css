@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: monospace;
 }
-.hero{
+header{
     background-image: url('images/header-bg.png');
   
     
@@ -14,13 +14,15 @@ body{
 }
 .dev_info{
     width: 40%;
+    float: left;
     margin: auto;
+    
 }
 
 
 .tittle h2{font-size: 25px;}
 .tittle span{
-    font-size: 35px;
+    font-size: 50px;
     color: rgb(255, 0, 157);
     font-weight: bold;
   
@@ -37,7 +39,7 @@ body{
     padding:10px 20px;
     font-size: 20px;
     text-transform: uppercase;
-    transition: 1s;
+    border-radius: 5px;
     
 
 }
@@ -50,10 +52,55 @@ body{
 
 .dev_img{
     width: 40%;
+    float: right;
     margin: auto;
 }
 .dev_img img{
     width: 100%;
     padding:  0px 20px;
-   
+
 }
+
+.bio_item{
+    background-image: url('images/biography-bg.png');
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    margin: auto;}
+.bio_image,.bio_info{
+    width: 40%;
+    
+}
+
+.bio_image img{
+    width: 100%;
+}
+
+.bio_info{
+    float: right;
+    overflow: hidden;
+    margin: auto;
+}
+
+.bio_tittle h1{
+    font-size: 45px;
+    font-family: arial;
+    color: rgba(0, 0, 0, 0.705);
+}
+.bio_des p{
+    font-size: 20px;
+    color: rgb(139, 149, 137);;
+}
+.tiitle_btn {
+    padding: 10px 0px;
+    
+}
+
+
+
+
+
+
+
+
+
+
