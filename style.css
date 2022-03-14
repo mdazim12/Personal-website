@@ -92,7 +92,31 @@ header{
 }
 .tiitle_btn {
     padding: 10px 0px;
-    
+}
+
+.work_tittle{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.work_tittle h1{
+    font-size: 45px;
+    color: rgb(73, 71, 69);
+
+}
+
+.work_itst{
+    width: 90%;
+    margin: auto;
+    display: -webkit-box;
+  
+}
+.work_sample{
+    width: 30%;
+    padding: 15px;
+}
+.work_sample img{
+    width: 100%;
 }
 
 
